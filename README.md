@@ -1,2 +1,2 @@
 # kirimomi-mdbook
-A Kirimomi Swash theme for mdBook
+A Kirimomi Swash theme for mdBook.
