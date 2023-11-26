@@ -20,7 +20,7 @@ body {
     margin: 0;
     font-size: 2.0rem;
     overflow-x: hidden;
-    text-indent: 2em;
+    /*text-indent: 2em;*/
 }
 
 code {
@@ -32,6 +32,14 @@ code {
 /* make long words/inline code not x overflow */
 main {
     overflow-wrap: break-word;
+}
+
+/* make horizontal lines have more margin */
+hr {
+  border: 0.5px solid;
+  border-radius: 2px;
+  margin: 3em;
+  margin-bottom: 2em;
 }
 
 /* make wide tables scroll if they overflow */
@@ -109,6 +117,7 @@ h6:target::before {
 .content p {
     line-height: 1.40em;
     margin-bottom: -1em;
+    text-indent: 2em;
 }
 .content ol { line-height: 1.45em; }
 .content ul { line-height: 1.45em; }
