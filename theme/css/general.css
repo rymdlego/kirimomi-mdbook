@@ -20,6 +20,7 @@ body {
     margin: 0;
     font-size: 2.0rem;
     overflow-x: hidden;
+    text-indent: 2em;
 }
 
 code {
